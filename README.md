@@ -12,7 +12,7 @@ All files related to the Power Management Unit (PMU) are located in their own de
 - PMU-based threshold monitoring with interrupt pin signaling
 - Modular architecture for switching between real-time transmission and local storage
 
-## Hardware Requirements
+## Major Hardware Requirements
 
 - Arduino Nano 33 BLE
 - ArduCAM Mini 2MP
