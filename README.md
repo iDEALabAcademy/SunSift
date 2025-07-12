@@ -4,27 +4,11 @@ SunSift is an energy-aware image sampling and sensing pipeline implemented on mi
 
 ## Repository Structure
 
-├── PMU/
-
-│   └── ... (content of the PMU directory)
-
-├── Camera.cpp
-
-├── Camera.h
-
-├── TFLModel.cpp
-
-├── TFLModel.h
-
-├── main.ino
-
-├── states.cpp
-
-└── states.h
+All files related to the Power Management Unit (PMU) are located in their own dedicated PMU/ folder. This isolates the power management logic from the other core application files, such as main.ino, Camera.cpp, and TFLModel.cpp, which reside together in the main directory.
 
 ## Features
 
-- Dynamic energy-aware state transitions (sense, compute, store, transmit, sleep)
+- Dynamic energy-aware state transitions (sense, compute, store, transmit, sleep, ...)
 - PMU-based threshold monitoring with interrupt pin signaling
 - Modular architecture for switching between real-time transmission and local storage
 
@@ -32,7 +16,7 @@ SunSift is an energy-aware image sampling and sensing pipeline implemented on mi
 
 - Arduino Nano 33 BLE
 - ArduCAM Mini 2MP
-- External PMU module with 3 GPIO threshold outputs
+- Everspin SPI MRAM
 
 ## License
 
