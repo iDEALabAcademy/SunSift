@@ -4,6 +4,16 @@ SunSift is an energy-aware image sampling and sensing pipeline implemented on mi
 
 ## Repository Structure
 
+├── PMU/
+│   └── ... (content of the PMU directory)
+├── Camera.cpp
+├── Camera.h
+├── TFLModel.cpp
+├── TFLModel.h
+├── main.ino
+├── states.cpp
+└── states.h
+
 ## Features
 
 - Dynamic energy-aware state transitions (sense, compute, store, transmit, sleep)
