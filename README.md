@@ -4,11 +4,6 @@ SunSift is an energy-aware image sampling and sensing pipeline implemented on mi
 
 ## Repository Structure
 
-
-- **main_sense_transmit.ino**: Captures and transmits image data under favorable power conditions.
-- **main_sense_store.ino**: Captures and stores image data locally for future transmission or processing.
-- **PMU/**: Contains a separate sketch (`PMU.ino`) responsible for managing voltage thresholds and generating interrupts to guide the system’s behavior.
-
 ## Features
 
 - Dynamic energy-aware state transitions (sense, compute, store, transmit, sleep)
