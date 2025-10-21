@@ -4,7 +4,7 @@ SunSift is an energy-aware image sampling and sensing pipeline implemented on mi
 
 ## Repository Structure
 
-All files related to the Power Management Unit (PMU) are located in their own dedicated PMU/ folder. This isolates the power management logic from the other core application files, such as main.ino, Camera.cpp, and TFLModel.cpp, which reside together in the main directory.
+All files related to the Power Management Unit (PMU) are located in their own dedicated PMU/ folder. This isolates the power management logic from the other core application files, such as main.ino, Camera.cpp, and TFLModel.cpp, which reside together in the main directory. Based on your board use the related main file. PMU_sus contains the code that can be used with the sustaiable setup.
 
 ## Features
 
@@ -14,7 +14,7 @@ All files related to the Power Management Unit (PMU) are located in their own de
 
 ## Major Hardware Requirements
 
-- Arduino Nano 33 BLE
+- Arduino Nano 33 BLE or Nano ESP32
 - ArduCAM Mini 2MP
 - Everspin SPI MRAM
 
